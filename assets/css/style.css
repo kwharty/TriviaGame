@@ -17,23 +17,26 @@
     
 
 }
-.form-group {
+ #form-group {
 	   /* margin: 15%;
 	/* text-align: right; */
 }
 
-body {
+#content {
 
 
-   /* background: url("../images/title.jpg"); */
-    background: transparent;
+    background: url("../images/nova.png"); 
+    font-size: 50px;
+    font-style: bold;
+    color: azure;
+   /* background: transparent; */
    /* background-image:  url("../images/title.jpg"); */
     
 
 }
 
 #row {
-    Border: Blue; /* not working */
+ /*   Border: Blue; /* not working */
 }
 
 /*footer*/

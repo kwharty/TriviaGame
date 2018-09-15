@@ -50,8 +50,8 @@ $(document).ready(function() {
     
     //Function to submit answers
     function submitAns() {
-        $("#submit").on("click", function(e) {
-            e.preventDefault();
+        $("#submit").on("click", function(event) {
+            event.preventDefault();
             userAns.length = 0;
                 
             //Record user answer to question
@@ -186,12 +186,12 @@ $(document).ready(function() {
             displayTimer();
         }
         else if (userAns[0] === undefined) {
-            $("#content").append('<h3>'+"Time's up!" + '</h3><br><br><h3>' + "The correct answer was: " + questions[questionCounter].choices[correctAnswer] + '</h3>');
+            $("#content").append('<h1>'+"Time's up!" + '</h1><br><br><h1>' + "The correct answer was: " + questions[questionCounter].choices[correctAnswer] + '</h1>');
             missed++;
             displayTimer();
         }
         else {
-            $("#content").append('<h1 color:"red">'+"You went to Georgetown" + '</h1><br><br><h3>' + "The correct answer was: " + questions[questionCounter].choices[correctAnswer] + '</h3>');
+            $("#content").append('<h1 color:"red">'+"You went to Georgetown" + '</h1><br><br><h1>' + "The correct answer was: " + questions[questionCounter].choices[correctAnswer] + '</h1>');
             incorrect++;
             displayTimer();
         };
