@@ -1,0 +1,49 @@
+/*general*/
+#twd-jumbo {
+    background: url("../images/title.jpg");
+    color: azure;
+    size: 100%;
+    opacity: 0.7;
+    
+}
+
+#heading {
+    font-weight: bold;
+    position: center;
+    opacity: 4.0;
+  text-align: center;
+
+    
+    
+
+}
+.form-group {
+	   /* margin: 15%;
+	/* text-align: right; */
+}
+
+body {
+
+
+   /* background: url("../images/title.jpg"); */
+    background: transparent;
+   /* background-image:  url("../images/title.jpg"); */
+    
+
+}
+
+#row {
+    Border: Blue; /* not working */
+}
+
+/*footer*/
+.footer {
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+/*form*/
+.twd-opt {
+	margin-right: 20px;
+}
